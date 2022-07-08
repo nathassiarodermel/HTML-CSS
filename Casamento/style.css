@@ -49,10 +49,16 @@ nav {
     color: #92df76;
 }
 
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
 a {
     text-decoration: none;
     font-weight: normal;
 }
+
 
 a:visited {
     color: #92df76;
@@ -73,6 +79,10 @@ section > h2 {
 
 section > p {
     font-size: 1.5em;
+}
+
+section a {
+    text-decoration: underline;
 }
 
 section a:visited {
