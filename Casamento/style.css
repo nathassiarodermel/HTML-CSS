@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Dancing Script', cursive;
+    --fonte3: 'Kaushan Script', cursive;
+    --fonte4: 'Amatic SC', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}   
+
+html, body {
+    min-height: 100vh;
+    background-color: #ccfdba9f;
+    font-family: var(--fonte4);
+}
+
+header {
+    background-color: #60bd3eda;
+    color: #BDFFA6;
+    text-align: center;
+    font-family: var(--fonte2);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.144);
+}
+
+header > h1 {
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-size: 4em;
+}
+
+header > p {
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+
+nav {
+    padding: 10px;
+    font-family: var(--fonte3);
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #92df76;
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:visited {
+    color: #92df76;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+}
+
+section > h2 {
+    font-size: 2em;
+    padding: 50px;
+}
+
+section > p {
+    font-size: 1.5em;
+}
+
+section a:visited {
+    color:  black;
+}
+
+section.esquerda {
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.direita {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    background-color: #60bd3eda;
+    color: #BDFFA6;
+    text-align: center;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.144);
+    font-family: var(--fonte2);
+}
+
+footer a:visited {
+    color: #BDFFA6;
+}
+
+footer.alinhar {
+    position: absolute;
+    bottom: 0;
+}
