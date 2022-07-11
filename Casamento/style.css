@@ -18,19 +18,20 @@
 
 html, body {
     min-height: 100vh;
-    background-color: #ccfdba9f;
+    background-color: lightgray;
     font-family: var(--fonte4);
     /* width: 300px;
     height: 300px; */
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.205);
+    /* background-color: rgba(0, 0, 0, 0.205); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.205), rgba(255, 255, 255, 0.336));
     color: black;
-    text-align: right;
+    text-align: left;
     padding-right: 10px;
     font-family: var(--fonte2);
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.144);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.048);
 }
 
 header > h1 {
@@ -125,7 +126,7 @@ section.centralizar {
 }
 
 section.cerimonia1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 section.cerimonia {
@@ -166,15 +167,41 @@ body {
     font-weight: bold;
  } 
 
+ body.historia {
+    background-image: url(imagens/foto_luke.jpeg);
+    /* color: rgb(253, 253, 253); */
+ }
+ 
+ body.ft_cerimonia {
+    background-image: url(imagens/alianca.jpeg);
+    background-position-y: 40%;
+ }
+
+ body.presenca {
+    background-image: url(imagens/presenca.jpeg);
+    /* background-position-y: 20%; */
+ }
+
+ body.dicas {
+    background-image: url(imagens/dicas.jpeg);
+    /* background-position-y: 60%; */
+ }
+
+ body.presente {
+    background-image: url(imagens/prc.jpeg);
+    background-position-y: 20%;
+ }
+
 footer {
     /* position: absolute; */
     /* bottom: 0; */
     width: 100%;
     /* background-color: #60bd3eda; */
-    background-color: rgba(0, 0, 0, 0.205);
+    /* background-color: rgba(0, 0, 0, 0.205); */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.336), rgba(0, 0, 0, 0.205));
     color: black;
     text-align: center;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.144);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.048);
     font-family: var(--fonte2);
     font-weight: normal;
 }
@@ -190,5 +217,5 @@ footer.alinhar {
 }
 
 footer.top {
-    margin-top: 20px;
+    margin-top: 10px;
 }
