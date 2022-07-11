@@ -139,16 +139,39 @@ section.cerimonia {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
 }
 
-section.dicas > p{
+section.dicas {
+    margin-bottom: 18px;
+}
+
+section.dicas > p {
     padding: 10px;
 }
 
+section.confirmacao > h2 {
+    padding-bottom: 15px;
+}
+
 section.confirmacao > p {
-    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section.confirmacao {
+    margin-bottom: 38px;
+}
+
+section.confirmacao > a {
+    color: black;
+    font-size: 1.5em;
+    /* margin-top: 20px; */
 }
 
 section.presentes > p {
     padding-bottom: 20px;
+}
+
+section.presentes {
+    margin-bottom: 54px;
 }
 
 body {
@@ -185,6 +208,7 @@ body {
  body.dicas {
     background-image: url(imagens/dicas.jpeg);
     /* background-position-y: 60%; */
+    /* margin-bottom: 20px; */
  }
 
  body.presente {
