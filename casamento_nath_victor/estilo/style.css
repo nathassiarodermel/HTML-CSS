@@ -58,5 +58,6 @@ li > a:hover {
 }
 
 main {
-    height: 70vh;
+    min-height: 70vh;
+    max-height: 75vh;
 }
