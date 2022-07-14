@@ -37,15 +37,15 @@ nav {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.589);
 }
 
-div > a {
-    color: white;
-    text-decoration: none;
-}
-
 div {
     display: inline-block;
     padding-right: 10px;
     padding-top: 10px;
+}
+
+div > a {
+    color: white;
+    text-decoration: none;
 }
 
 
