@@ -37,21 +37,22 @@ nav {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.589);
 }
 
-li > a {
+div > a {
     color: white;
     text-decoration: none;
 }
 
-li {
-    display: inline;
+div {
+    display: inline-block;
     padding-right: 10px;
 }
 
-li > a:visited {
+
+div > a:visited {
     color: white;
 }
 
-li > a:hover {
+div > a:hover {
     background-color: var(--cor4_t);
     padding: 10px;
     font-weight: bold;
