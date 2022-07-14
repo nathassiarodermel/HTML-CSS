@@ -54,6 +54,7 @@ li > a:visited {
 li > a:hover {
     background-color: var(--cor4_t);
     padding: 10px;
+    font-weight: bold;
 }
 
 main {
