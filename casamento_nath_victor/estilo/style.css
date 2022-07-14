@@ -33,7 +33,7 @@ header > h1, header > p {
 }
 
 nav {
-    padding: 40px 10px 0px 10px;
+    padding: 50px 10px 50px 10px;
     text-align: center;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.589);
 }
@@ -71,7 +71,7 @@ main {
     background-color: #dbbb393f;
     max-width: 500px;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
     color: white;
 }
