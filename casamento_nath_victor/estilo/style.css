@@ -33,7 +33,7 @@ header > h1, header > p {
 
 nav {
     padding-top: 10px;
-    text-align: right;
+    text-align: center;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.589);
 }
 
