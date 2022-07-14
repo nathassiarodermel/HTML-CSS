@@ -55,3 +55,7 @@ li > a:hover {
     background-color: var(--cor4_t);
     padding: 10px;
 }
+
+main {
+    height: 70vh;
+}
