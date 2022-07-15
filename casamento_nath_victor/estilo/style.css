@@ -63,6 +63,10 @@ nav {
     font-size: 1.5em;
 }
 
+.escurecer {
+    background-color: var(--cor4_t);
+}
+
 div {
     display: inline-block;
     padding-right: 10px;
