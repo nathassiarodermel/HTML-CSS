@@ -63,14 +63,14 @@ nav {
     font-size: 1.5em;
 }
 
-.escurecer > a {
+/* .escurecer > a {
     color: var(--cor2);
     text-shadow: 1px 1px 1px var(--cor2);
-}
+} */
 
-.escurecer > a:visited {
+/* .escurecer > a:visited {
     color: var(--cor2);
-}
+} */
 
 div {
     display: inline-block;
