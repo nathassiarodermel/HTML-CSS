@@ -5,15 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            /* Para Iframe, prioridade é CSS */
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
     <p>
         Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+        <!-- Tamanho Padrão 300x150 -->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scrolling="auto">
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>
+        </iframe>
         para aprender a programar.
     </p>
-    <p>O site do <iframe src="https://www.google.com.br" frameborder="0"></iframe> também é muito legal</p>
+
+    <p>O repositório do Guanabara
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">
+            <!-- Tudo que vier aqui no meio, só aparece caso dispositivo não seja compatível -->
+            no <a href="https://gustavoguanabara.github.io" target="_blank">GitHub</a>
+        </iframe>
+        também é bem legal!
+    </p>
+    <!-- <p>O site do <iframe src="https://www.google.com.br" frameborder="0"></iframe> também é muito legal, pena que não funciona dentro do Iframe.</p> -->
     <!-- Alguns sites são protegidos contra reprodução de terceiros, como o do Google -->
 </body>
 </html>
