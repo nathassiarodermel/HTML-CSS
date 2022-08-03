@@ -13,8 +13,13 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <!-- Desliga auto completar do formulário -->
+        <!-- 
+            Por padrão method é get - usado quando dados não são sensíveis e/ou link compartilhável - até 3000 bytes (aprox 3000 letras)
+            post não adiciona dados na URL - envio de fotos ou arquivos
+            Proteção de dados: https
+        -->
         <!-- Para enviar dados, adicionar action="cadastro.php" após <form (linguagem php) -->
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
